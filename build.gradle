@@ -20,6 +20,9 @@ buildscript {
                 password '4a925a4d-7094-4a70-9606-28604feb1a9c'
             }
         }
+        maven {
+            url "https://jitpack.io"
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.0'//3.5.2
@@ -47,6 +50,9 @@ allprojects {
                 username 'admin'
                 password '4a925a4d-7094-4a70-9606-28604feb1a9c'
             }
+        }
+        maven {
+            url "https://jitpack.io"
         }
     }
 }

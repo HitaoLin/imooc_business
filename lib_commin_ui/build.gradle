@@ -11,8 +11,8 @@ android {
         versionCode      this.rootProject.android.versionCode
         versionName      this.rootProject.android.versionName
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles 'consumer-rules.pro'
+//        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+//        consumerProguardFiles 'consumer-rules.pro'
     }
 
     buildTypes {
@@ -28,4 +28,5 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation this.rootProject.depsLibs.appcompat
+    api this.rootProject.depsLibs.magicindicator
 }
