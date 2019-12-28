@@ -33,8 +33,17 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
+    //rxjava库
+    implementation rootProject.depsLibs.rxjava
+    implementation rootProject.depsLibs.rxandroid
+
+    //eventbus类库依赖
+    implementation rootProject.depsLibs.eventbus
+
     //基础UI库
     implementation project(':lib_commin_ui')
     //网络请求库
     implementation project(':lib_network')
+    //图片加载库
+    implementation project(':lib_image_loader')
 }

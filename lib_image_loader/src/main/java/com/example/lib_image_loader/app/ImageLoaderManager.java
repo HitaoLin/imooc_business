@@ -126,7 +126,7 @@ public class ImageLoaderManager {
                                     public void accept(Object o) throws Exception {
                                         group.setBackground((Drawable) o);
                                     }
-                                })
+                                });
                         /**
                          * date:2019.12.27
                          * desc:视频写法--报错暂时无法解决
@@ -137,10 +137,11 @@ public class ImageLoaderManager {
 //                                group.setBackground(drawable);
 //                            }
 //                        })
-                        ;
+//                        ;
                     }
                 });
     }
+
 
     /**
      * 为非view加载图片
