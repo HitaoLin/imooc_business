@@ -20,10 +20,13 @@ ext {
             rxjava        : '2.2.9',
             rxandroid     : '2.1.1',
             eventbus      : '3.1.1',
+            greendao      : '3.2.2',
     ]
 
     depsLibs = [
             appcompat     : "com.android.support:appcompat-v7:${depsVersion.appcompat}",
+            design        : "com.android.support:design:28.0.0",
+            recyclerview  : "com.android.support:recyclerview-v7:28.0.0",
             magicindicator: "com.github.hackware1993:MagicIndicator:${depsVersion.magicindicator}",
             okhttp        : "com.squareup.okhttp3:okhttp:${depsVersion.okhttp}",
             glide         : "com.github.bumptech.glide:glide:${depsVersion.glide}",
@@ -31,6 +34,7 @@ ext {
             rxjava        : "io.reactivex.rxjava2:rxjava:${depsVersion.rxjava}",
             rxandroid     : "io.reactivex.rxjava2:rxandroid:${depsVersion.rxandroid}",
             eventbus      : "org.greenrobot:eventbus:${depsVersion.eventbus}",
+            greendao      : "org.greenrobot:greendao:${depsVersion.greendao}",
     ]
 
 }

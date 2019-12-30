@@ -1,2 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.lib_audio" />
+    package="com.example.lib_audio" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <!-- 在电量比较弱的情况下工作   -->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application android:label="@string/app_name">
+    </application>
+</manifest>

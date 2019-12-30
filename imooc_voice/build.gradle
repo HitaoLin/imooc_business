@@ -46,4 +46,7 @@ dependencies {
     implementation project(':lib_network')
     //图片加载库
     implementation project(':lib_image_loader')
+    //音频播放库
+    implementation project(':lib_audio')
 }
+
